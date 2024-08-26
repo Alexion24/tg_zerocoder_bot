@@ -7,12 +7,12 @@ from gtts import gTTS
 
 # Инициализация клиента API OpenAI с вашим API ключом
 openai_client = OpenAI(
-    api_key="sk-eojihWMYuwlwO4oNjNMX8DbkkkBtLg7I",
+    api_key="YOUR_OPENAI_TOKEN",
     base_url="https://api.proxyapi.ru/openai/v1",
 )
 
 # Замените 'YOUR_BOT_API_TOKEN' на ваш токен API, который вы получили от BotFather
-API_TOKEN = "7301717324:AAEDXfHtVn3nEI5HOIwctSmOQ6OusHg7cz0"
+API_TOKEN = "YOUR_BOT_API_TOKEN"
 
 bot = telebot.TeleBot(API_TOKEN)
 
